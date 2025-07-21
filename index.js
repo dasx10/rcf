@@ -1,0 +1,1 @@
+export var $=((c)=>(x)=>(c.get(x))||c.set(x,new Proxy(x,{get(x,i){var f=x.prototype;return((i in f)&&(typeof f[i]==="function")&&((f[i].length>0)&&((...a)=>(y)=>f[i].apply(y,a)))||((y,...a)=>(y instanceof x)?(typeof f[i]==="function"?f[i].apply(y,a):Reflect.get(y,i)):(z)=>f[i].call(z,y,...a))||Reflect.get(x,i))}})).get(x))(new WeakMap);export default $;

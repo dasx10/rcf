@@ -1,0 +1,31 @@
+{
+  "name": "rcf",
+  "version": "1.0.0",
+  "description": "A tiny utility for creating functional, curried access to class prototype methods and properties.",
+  "scripts": {
+    "test": "node --test ./index.test.js"
+  },
+  "keywords": [
+    "functional",
+    "curry",
+    "partial",
+    "application",
+    "proxy",
+    "typescript",
+    "utility",
+    "composition"
+  ],
+  "homepage": "https://github.com/dasx10/rcf#readme",
+  "bugs": {
+    "url": "https://github.com/dasx10/rcf/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasx10/rcf.git"
+  },
+  "license": "MIT",
+  "author": "Yevhenii Kleshchev <dasx10@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "types": "./index.d.ts"
+}
