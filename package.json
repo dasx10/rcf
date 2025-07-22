@@ -1,6 +1,6 @@
 {
   "name": "rffc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny utility for creating functional, curried access to class prototype methods and properties.",
   "scripts": {
     "test": "node --test ./index.test.js"
