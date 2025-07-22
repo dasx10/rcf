@@ -1,5 +1,5 @@
 {
-  "name": "rfcc",
+  "name": "rffc",
   "version": "1.0.0",
   "description": "A tiny utility for creating functional, curried access to class prototype methods and properties.",
   "scripts": {
@@ -15,13 +15,13 @@
     "utility",
     "composition"
   ],
-  "homepage": "https://github.com/dasx10/rfcc#readme",
+  "homepage": "https://github.com/dasx10/rffc#readme",
   "bugs": {
-    "url": "https://github.com/dasx10/rfcc/issues"
+    "url": "https://github.com/dasx10/rffc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dasx10/rfcc.git"
+    "url": "git+https://github.com/dasx10/rffc.git"
   },
   "license": "MIT",
   "author": "Yevhenii Kleshchev <dasx10@gmail.com>",

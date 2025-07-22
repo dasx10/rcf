@@ -60,8 +60,10 @@ const pushItem = rffc(Array<number>).push;
 
 const myArray = [1, 2, 3];
 console.log("Before push:", myArray); // Output: [1, 2, 3]
-pushItem(myArray, 4); // The array is mutated directly
+pushItem(4)(myArray); // The array is mutated directly
 console.log("After push:", myArray);  // Output: [1, 2, 3, 4]
+pushItem(5, 6, 7)(myArray); // The array is mutated directly
+console.log("After push:", myArray);  // Output: [1, 2, 3, 4, 5, 6, 7]
 
 // Example 4: Accessing a simple property
 const getLength = rffc(Array<any>).length;
