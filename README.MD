@@ -53,7 +53,7 @@ console.log(toLocaleDateEn(new Date())); // Output: "7/20/2025" (or current date
 console.log(toLocaleDateDE(new Date())); // Output: "20.7.2025" (or current date in de-DE format)
 
 // Direct usage without explicit currying
-console.log(toLocaleDate("uk-UA", new Date())); // Output: "20.07.2025" (or current date in uk-UA format)
+console.log(toLocaleDate(new Date())); // Output: "20.07.2025" (or current date in default format)
 
 // Example 3: Using a method that mutates (e.g., Array.prototype.push)
 const pushItem = rffc(Array<number>).push;
